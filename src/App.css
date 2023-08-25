@@ -1,0 +1,42 @@
+.card-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+.card{
+    width: 430px;
+    display: flex;
+    background-color: cadetblue;
+    border-radius: 10px;
+    box-shadow: 0px 4px 5px 4px darkslategray;
+    padding: 20px 0px;
+    transition: all .6s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.image{
+    height: 75%;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.details{
+    overflow: hidden;
+    width: 60%;
+    color: white;
+}
+
+.header{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    background-color: cadetblue;
+    margin: 0px 0px 50px 0px;
+    padding: 10px;
+}
